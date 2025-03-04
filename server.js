@@ -15,7 +15,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(cors({
-  origin: 'https://moonlit-queijadas-c36cf5.netlify.app'
+  origin: 'https://67c682da7b5e8fbfbb703645--moonlit-queijadas-c36cf5.netlify.app/'
 }));
 
 // Connect to MongoDB
