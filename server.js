@@ -14,7 +14,9 @@ const app = express();
 
 // Middleware
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+  origin: 'https://your-netlify-app.netlify.app'
+}));
 
 // Connect to MongoDB
 mongoose.connect(process.env.MONGODB_URI)
