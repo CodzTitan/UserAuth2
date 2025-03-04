@@ -15,7 +15,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(cors({
-  origin: 'https://your-netlify-app.netlify.app'
+  origin: 'https://moonlit-queijadas-c36cf5.netlify.app'
 }));
 
 // Connect to MongoDB
