@@ -15,7 +15,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(cors({
-  origin: 'https://whimsical-donut-431777.netlify.app/'
+  origin: 'https://whimsical-donut-431777.netlify.app'
 }));
 
 // Connect to MongoDB
